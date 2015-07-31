@@ -1,0 +1,50 @@
+
+#main-wrapper {
+  display: flex;
+  flex-flow: column nowrap;
+}
+
+header {
+  flex: 1 100%; 
+  padding-left: 20px;
+  border: solid black;
+  background-color: #FFB4B0;
+  max-height: 53px;
+  text-align: justify;
+}
+
+#filter-content {
+   border: solid black;
+   background-color: #4DD7FA;
+   padding: 20px 0 20px 25px;;
+   text-align: justify;
+   margin-top: 16px;
+}
+
+.left-three {
+  float: left;
+}
+
+.cleared{
+   clear:both; 
+}
+
+
+#song-info-content {
+  text-align: justify;
+  border: solid black;
+  background-color: #FEFAC0;
+  margin-top: 16px;
+  padding: 10px;
+}
+
+.song-info {
+  display: block;
+  font-size: 1.5em;
+  margin: 10px;
+}
+
+#more_button {
+ margin-top: 10px; 
+ float: left;
+}
